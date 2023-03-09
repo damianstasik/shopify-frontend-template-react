@@ -1,5 +1,34 @@
 {
   "HomePage": {
-    "heading": "Beau travail sur la construction d'une application Shopify 🎉"
+    "heading": "Beau travail sur la construction d'une application Shopify 🎉",
+    "learnMore": "En savoir plus sur la création de votre application dans <2>ce tutoriel Shopify</2> 📚",
+    "startPopulatingYourApp": "Prêt à partir? \nCommencez à remplir votre application avec des exemples de produits à afficher et à tester dans votre magasin.",
+    "title": "Nom de l'application",
+    "trophyAltText": "Beau travail sur la construction d'une application Shopify",
+    "yourAppIsReadyToExplore": "Votre application est prête à être explorée ! \nIl contient tout ce dont vous avez besoin pour démarrer, y compris le <2>système de conception Polaris</2>, l'<5>API d'administration Shopify</5> et la bibliothèque et les composants de l'interface utilisateur <8>App Bridge</8>."
+  },
+  "NavigationMenu": {
+    "pageName": "Nom de la page"
+  },
+  "NotFound": {
+    "description": "Vérifiez l'URL et réessayez, ou utilisez la barre de recherche pour trouver ce dont vous avez besoin.",
+    "heading": "Il n'y a pas de page à cette adresse"
+  },
+  "PageName": {
+    "body": "Corps",
+    "heading": "Titre",
+    "primaryAction": "Mesure principale",
+    "secondaryAction": "Action secondaire",
+    "title": "Nom de la page"
+  },
+  "ProductsCard": {
+    "description": "Des exemples de produits sont créés avec un titre et un prix par défaut. \nVous pouvez les supprimer à tout moment.",
+    "errorCreatingProductsToast": "Une erreur s'est produite lors de la création des produits",
+    "populateProductsButton_one": "Remplir {{count}} produit",
+    "populateProductsButton_other": "Remplir {{count}} produits",
+    "productsCreatedToast_one": "{{count}} produit créé !",
+    "productsCreatedToast_other": "{{count}} produits créés !",
+    "title": "Compteur de produits",
+    "totalProductsHeading": "PRODUITS TOTAUX"
   }
 }
