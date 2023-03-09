@@ -9,12 +9,14 @@ import {
   Text,
 } from "@shopify/polaris";
 import { TitleBar } from "@shopify/app-bridge-react";
+import { useTranslation } from "react-i18next";
 
 import { trophyImage } from "../assets";
 
 import { ProductsCard } from "../components";
 
 export default function HomePage() {
+  const { t } = useTranslation();
   return (
     <Page narrowWidth>
       <TitleBar title="App name" primaryAction={null} />
@@ -30,7 +32,7 @@ export default function HomePage() {
               <Stack.Item fill>
                 <TextContainer spacing="loose">
                   <Text as="h2" variant="headingMd">
-                    Nice work on building a Shopify app 🎉
+                    {t("HomePage.heading")}
                   </Text>
                   <p>
                     Your app is ready to explore! It contains everything you

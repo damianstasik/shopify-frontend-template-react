@@ -4,8 +4,9 @@ import Routes from "./Routes";
 
 import {
   AppBridgeProvider,
-  QueryProvider,
+  I18nProvider,
   PolarisProvider,
+  QueryProvider,
 } from "./components";
 
 export default function App() {
@@ -17,17 +18,19 @@ export default function App() {
     <PolarisProvider>
       <BrowserRouter>
         <AppBridgeProvider>
-          <QueryProvider>
-            <NavigationMenu
-              navigationLinks={[
-                {
-                  label: "Page name",
-                  destination: "/pagename",
-                },
-              ]}
-            />
-            <Routes pages={pages} />
-          </QueryProvider>
+          <I18nProvider>
+            <QueryProvider>
+              <NavigationMenu
+                navigationLinks={[
+                  {
+                    label: "Page name",
+                    destination: "/pagename",
+                  },
+                ]}
+              />
+              <Routes pages={pages} />
+            </QueryProvider>
+          </I18nProvider>
         </AppBridgeProvider>
       </BrowserRouter>
     </PolarisProvider>
