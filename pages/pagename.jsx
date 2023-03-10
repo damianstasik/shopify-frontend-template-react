@@ -40,7 +40,9 @@ export default function PageName() {
         </Layout.Section>
         <Layout.Section secondary>
           <Card sectioned>
-            <Heading>{t("PageName.heading")}</Heading>
+            <Text variant="headingMd" as="h2">
+              {t("PageName.heading")}
+            </Text>
             <TextContainer>
               <p>{t("PageName.body")}</p>
             </TextContainer>
